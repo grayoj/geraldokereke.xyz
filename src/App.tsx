@@ -126,7 +126,7 @@ function App() {
                           can use. Below are the few projects I've worked on:
                         </p>
                         <div className="container mx-auto py-4">
-                          {projects.map((project: Project, index: number) => (
+                          {projects.map((project: any, index: number) => (
                             <ListItem
                               key={index}
                               title={project.title}
